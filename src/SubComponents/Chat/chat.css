@@ -1,0 +1,62 @@
+.chat__overlay {
+    display: flex;
+    flex-direction: row;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+
+.chat__overlay-text {
+    width: 120px;
+    height: auto;
+    margin-right: 5px;
+    
+}
+
+.chat__icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.custom-button {
+    background: none; /* Remove the background */
+    border: none; /* Remove borders */
+    padding: 0; /* Remove padding */
+    cursor: pointer; /* Add pointer cursor */
+    outline: none; /* Remove outline on focus */
+    margin-bottom: 5px;
+    
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+
+.chat__overlay-apis {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform:rotate(90deg);
+    }
+}
+
+.rotateIcon {
+    animation: rotate 0.3s ease-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

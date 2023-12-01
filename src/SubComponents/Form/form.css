@@ -1,0 +1,163 @@
+.form_field1, .form_field2, .form_field3, .form_field4, .form_field5 {
+    font-family: var(--font-fam);
+    font-size: 18px;
+    display: flex;
+}
+
+.form_field1 input {
+    flex-direction: row;
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-fam);
+    padding:5px 0px ;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.form_field2 {
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.form_field2-select {
+    width: 240px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.form_field2-select select {
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-fam);
+    
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    color: gray;
+
+    background: url('ico_arrow2.png') no-repeat right;
+    
+}
+
+.form_field2 input {
+    width: 240px;
+    height: 32px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-fam);
+    
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.form_field3 {
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.form_field3 input {
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-fam);
+    padding:5px 0px ;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid black;
+    margin-right: 20px;
+    color: gray;
+    /* background: url('ico_calendarfull.png') no-repeat right; */
+}
+
+.form_field3 input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: gray;
+    margin-right: 5px;
+}
+.form_field3 input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(ico_calendar3.png) no-repeat;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    margin-right: 16px;
+}
+
+.form_field3 input::-webkit-datetime-edit{ color: transparent; }
+.form_field3 input:focus::-webkit-datetime-edit{ color: #000; }
+.form_field3 input:not(:focus):valid::-webkit-datetime-edit {
+    color: #000;
+}
+
+.form_field4 {
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.form_field4 select {
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-fam);
+    padding:5px 0px ;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid black;
+    margin-right: 20px;
+    color: gray;
+
+    -webkit-appearance: none;
+    background: url('ico_arrow2.png') no-repeat right;
+}
+
+.form_field5 {
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form_field5 textarea {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: #979EA7;
+    font-family: var(--font-fam);
+
+    width: 350px;
+    height: 100px;
+}
+
+.form_field5 button {
+    width: 100px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    color: white;
+    background-color: #127D0D;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
