@@ -32,24 +32,28 @@ const Home = () => {
       duration: "04 Nights 05 Days",
       name: "Serenity Escape Tour",
       hook: "A laidback exploration into Kandy's cultural richness, Nuwara Eliya's beauty, Bentota's beaches, and Colombo's vibrant charm.",
+      userId: 'serenity-escape',
     },
     {
       image: "featured_seenigama.png",
       duration: "06 Nights 07 Days",
       name: "Ramayana Tour",
       hook: "Sri Lanka's Ramayana Odyssey: A Mythical Journey unveiling ancient temples, divine landscapes and legends.",
+      userId: 'ramayana-tour',
     },
     {
       image: "featured_honeymoon.png",
       duration: "09 Nights 10 Days",
       name: "Honeymoon Tour",
       hook: "A magical honeymoon in Sri Lanka, where gentle giants, ancient wonders, and romantic adventures await.",
+      userId: 'honeymoon-tour',
     },
     {
       image: "featured_kataragama.png",
       duration: "05 Nights 06 Days",
       name: "Hindu Tour",
       hook: "Embark on a divine journey through sacred Hindu sites in Sri Lanka, where ancient temples and spiritual wonders await.",
+      userId: 'hindu-tour',
     },
   ];
 
@@ -234,6 +238,7 @@ const Home = () => {
               duration={item.duration}
               name={item.name}
               hook={item.hook}
+              userId={item.userId}
             />
           ))}
         </div>

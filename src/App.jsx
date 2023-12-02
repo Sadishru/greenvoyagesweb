@@ -10,6 +10,7 @@ import {
   Navbar,
 } from "./Components";
 import Chat from './SubComponents/Chat/Chat';
+import Itenerary from "./SubComponents/Itenerary/Itenerary";
 import { register } from 'swiper/element/bundle';
 register();
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/explore/*" element={<Explore />} />
         <Route path="/packages" element={<Packages />} />
+        <Route path="/packages/:userId" element={<Itenerary />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contactus" element={<ContactUs />} />

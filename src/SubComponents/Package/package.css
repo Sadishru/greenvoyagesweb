@@ -1,76 +1,83 @@
 .package__container {
-    display: flex;
-    flex-direction: column;
-    background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
 
-    font-family: var(--font-fam);
+  font-family: var(--font-fam);
 
-    width: 280px;
-    height: 420px;
+  width: 280px;
+  height: 420px;
 
-    border-radius: 20px;
-    align-items: center;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+
+  
 }
 
 .package__container:hover {
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .package__container-img img {
-    width: 280px;
-    height: auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  width: 280px;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .package__container-duration {
-    transform: translateY(-40px);
-    background-color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 50px;
-    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-40px);
+  background-color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .package__container-duration h3 {
-    font-size: 18px;
-    margin: 0;
-    font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
 }
 
 .package__container-body {
-    display: flex;
-    flex-direction: column;
-    transform: translateY(-30px);
-    padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-30px);
+  padding-left: 10px;
+  position: relative;
 }
 
 .package__container-body h2 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 500;
-    transform: translateY(-5px);
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  transform: translateY(-5px);
 }
 
 .package__container-body p {
-    font-size: 16px;
-    color: #127D0D;
-    transform: translateY(-20px);
-    line-height:19.2px ;
+  font-size: 16px;
+  color: #127d0d;
+  transform: translateY(-20px);
+  line-height: 19.2px;
+
+  
 }
 
 .package__container-body button {
-    width: 100px;
-    font-family: var(--font-fam);
-    border: none;
-    color: #ffffff;
-    background-color: #127D0D;
-    padding: 5px 10px;
-    border-radius: 20px;
+  width: 100px;
+  font-family: var(--font-fam);
+  border: none;
+  color: #ffffff;
+  background-color: #127d0d;
+  padding: 5px 10px;
+  border-radius: 20px;
 
-    transform: translateY(-25px);
+  transform: translateY(-25px);
 }
 
 .package__container-body button:hover {
-    background-color:#0F3568;
-    cursor: pointer;
+  background-color: #0f3568;
+  cursor: pointer;
 }
+
