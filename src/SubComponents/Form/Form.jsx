@@ -28,7 +28,7 @@ const Form = () => {
   // };
 
   return (
-    <form action="https://formspree.io/f/xrgwwory" method="POST">
+    <form action="https://formspree.io/f/xrgwwory" method="POST" >
       <div className="form_field1">
         <input
           type="text"
@@ -404,8 +404,11 @@ const Form = () => {
           <option value="notspecified">Select Tour Package</option>
           <option value="ramayanatour">Ramayana Tour</option>
           <option value="honeymoontour05d">Honeymoon Tour</option>
-          <option value="honeymoontour09d">Honeymoon Tour Extended</option>
-          <option value="serenityescapetour">Serenity Escape</option>
+          <option value="honeymoontour09d">Honeymoon Bliss</option>
+          <option value="serenityescape4n5d">Serenity Escape</option>
+          <option value="hindutour">Hindu Tour</option>
+          <option value="heritage5n6d">Heritage Tour</option>
+          <option value="tropicalbliss6n7d">Tropical Bliss</option>
         </select>
       </div>
       <div className="form_field5">
