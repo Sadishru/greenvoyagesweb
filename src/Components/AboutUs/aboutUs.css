@@ -1,0 +1,117 @@
+.aboutus__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus__hero, .aboutus__story {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus__hero-texts {
+    font-family: var(--font-fam);
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.aboutus__hero-texts h1 {
+    font-size: 59px;
+    line-height: 64.9px;
+}
+
+.aboutus__hero-texts span {
+    color: #127D0D ;
+}
+
+.aboutus__hero-texts p {
+    font-size: 18px;
+    line-height: 21.6px;
+    width: 500px;
+}
+.aboutus__hero-img{
+    width: 760px;
+}
+.aboutus__hero-img img {
+    width: 760px;
+    height: 100%;
+} 
+.aboutus__story-img {
+    width: 605px;
+}
+.aboutus__story-img img {
+    width: 605px;
+    height: 100%;
+}
+
+.aboutus__story-texts {
+    background-color: black;
+    color: white;
+    font-family: var(--font-fam);
+
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.aboutus__story-texts h1 {
+    font-size: 59px;
+}
+.aboutus__story-texts p {
+    font-size: 24px;
+}
+
+.aboutus__diaries {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F3568;
+    color: white;
+    font-family: var(--font-fam);
+}
+
+.aboutus__diaries h1 {
+    padding-left: 20px;
+    font-size: 59px;
+}
+
+.diaries__kandytemple {
+    width: auto;
+    height: 250px;
+    background-image: url('/travel_kandytemple.png');
+}
+.diaries__dambulla {
+    width: auto;
+    height: 250px;
+    background-image: url('/travel_dambulla.png');
+}
+.diaries__kandy {
+    width: auto;
+    height: 250px;
+    background-image: url('/travel_kandy.png');
+}
+.diaries__texts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.diaries__texts:hover {
+    backdrop-filter: blur(1rem);
+}
+.diaries__texts h3 {
+    font-size: 24px;
+    padding-left: 20px;
+    
+}
+.youtube__links {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+.youtube__links img {
+    scale: 0.7;
+}
+.youtube__links p {
+    font-size: 18px;
+    cursor: pointer;
+}

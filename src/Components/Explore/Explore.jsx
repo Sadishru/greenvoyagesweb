@@ -58,7 +58,7 @@ const Explore = () => {
             The Temple of the Tooth Relic stands as a beacon of Buddhist
             reverence, housing the sacred left canine tooth of Lord Buddha. This
             revered relic, brought to Sri Lanka in the 4th century AD, has
-            transformed the temple into a pilgrimage <br />
+            transformed the temple into a pilgrimage 
             site for devout Buddhists worldwide.
           </p>
           <div className="kandy__body-imgs">

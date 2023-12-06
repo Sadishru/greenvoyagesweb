@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./form.css";
 
+
 const Form = () => {
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
@@ -11,24 +12,8 @@ const Form = () => {
   const [tour, setTour] = useState("");
   const [message, setMessage] = useState("");
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const response = await fetch("https://formsubmit.co/hellosadish@gmail.com", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(formData),
-  //     });
-  //   }
-  //   catch (error) {
-  //     console.error("Error Submission:", error);
-  //   }
-  // };
-
   return (
-    <form action="https://formspree.io/f/xrgwwory" method="POST" >
+    <form action={import.meta.env.VITE_FORM_ACTION} method="POST" >
       <div className="form_field1">
         <input
           type="text"
