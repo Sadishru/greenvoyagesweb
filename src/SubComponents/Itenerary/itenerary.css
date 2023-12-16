@@ -136,3 +136,9 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+@media (max-width:768px) {
+    .itenerary__container {
+        flex-direction: column;
+    }
+}
