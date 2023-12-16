@@ -161,3 +161,36 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .form_field1, .form_field2, .form_field3{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .form_field2-select {
+        transform: translateX(-100px);
+    }
+    .field__phone {
+        transform: translateX(-110px);
+    }
+}
+@media (max-width: 400px) {
+    .form_field2-select {
+        transform: translateX(-86px);
+    }
+    .field__phone {
+        transform: translateX(-96px);
+    }
+    .form__textarea {
+        width: 300px;
+    }
+}
+@media (max-width: 425px) {
+    .form_field2-select {
+        transform: translateX(-85px);
+    }
+    .field__phone {
+        transform: translateX(-94px);
+    }
+    
+}
+

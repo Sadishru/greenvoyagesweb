@@ -56,3 +56,12 @@
 .footer__faqs {
     background-color: white;
 }
+
+@media (max-width:475px) {
+    .faq__thread-q h3, .faq__thread-answer {
+        font-size: 16px ;
+    }
+    .faq__thread {
+        width: 80vw;
+    }
+}

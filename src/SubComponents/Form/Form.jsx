@@ -353,6 +353,7 @@ const Form = () => {
           type="tel"
           value={phone}
           name="Phone"
+          className="field__phone"
           placeholder="Phone Number"
           onChange={(e) => setPhone(e.target.value)}
           required
@@ -400,6 +401,7 @@ const Form = () => {
         <textarea
           placeholder="Tell us your dream holiday..."
           value={message}
+          className="form__textarea"
           name="message"
           onChange={(e) => setMessage(e.target.value)}
         />

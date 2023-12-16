@@ -177,3 +177,13 @@
     margin-left: 60px;
 }
 
+@media (max-width:768px) {
+    .contactus__hero-body {
+        flex-direction: column-reverse;
+    }
+    .contactus__hero-body_img iframe {
+        transform: translateX(50px);
+        margin-top: 20px;
+    }
+}
+

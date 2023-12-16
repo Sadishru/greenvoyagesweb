@@ -171,8 +171,8 @@ const Home = () => {
                 <h2>Select a Package or Inquire</h2>
                 <p>
                   Your perfect Sri Lankan adventure starts here. Share your
-                  <br />
-                  tour preferences or Select a tailor made tour package <br />
+                  
+                  tour preferences or Select a tailor made tour package
                   from our Packages.
                 </p>
                 <div className="process_body-details1_info-btns">

@@ -115,3 +115,21 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+@media (max-width:768px) {
+    .aboutus__story-img img {
+        display: none;
+    }
+    .aboutus__container {
+        overflow-x: hidden;
+    }
+    .aboutus__hero-texts h1 {
+        font-size: 32px;
+        line-height: 38.4px;
+        transform: translateX(-10px);
+    }
+    .aboutus__hero-texts p {
+        transform: translateX(-10px);
+        width: 100%;
+    }
+}
