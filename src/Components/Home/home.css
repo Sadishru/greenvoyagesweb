@@ -209,7 +209,7 @@
 }
 
 .home__container-featured {
-  background-image: url("home__bg__unawatuna.png");
+  background-image: url("/home__bg__unawatuna.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 20px;
@@ -262,7 +262,7 @@
 }
 
 .home__container-reviews {
-  background-image: url("./home__bg__tours.png");
+  background-image: url("/home__bg__tours.png");
   background-size: cover;
   padding-left: 50px;
   font-family: var(--font-fam);
