@@ -149,7 +149,7 @@ const Packages = () => {
                 openUrl("https://www.linkedin.com/in/sadishruhunage/")
               }
             >
-              TownXara
+              Yaaara
             </span>
           </p>
         </div>

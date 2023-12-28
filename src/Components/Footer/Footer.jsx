@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="footer_cc">
           <img src={'footer_line.png'} alt="break line" />
-          <p>© 2023 Green Voyages(Pvt)Ltd. All Rights Reserved. UX Design & Development by <span className="sadiz" onClick={() => openUrl('https://www.linkedin.com/in/sadishruhunage/')}>TownXara</span></p>
+          <p>© 2023 Green Voyages(Pvt)Ltd. All Rights Reserved. UX Design & Development by <span className="sadiz" onClick={() => openUrl('https://www.linkedin.com/in/sadishruhunage/')}>Yaaara</span></p>
         </div>
         <div className="footer_background">
           <img src={'bg__footer.png'} alt="explore sri lanka tour packages surf beach" />
